@@ -46,14 +46,14 @@ p {
 .result {
   background-color: var(--light_slate_blue);
   color: var(--light_lavender);
-  width: 280px;
+  width: 260px;
   height: 375px;
   border-radius: 25px;
 }
 
 .summary {
   color: var(--dark_gray_blue);
-  width: 280px;
+  width: 240px;
   height: 375px;
 }
 
@@ -112,6 +112,7 @@ html, body {
 }
 
 .remarks h2 {
+  color: var(--white);
   font-size: 22px;
   margin: 0;
   padding: 0;
@@ -121,4 +122,79 @@ html, body {
   font-size: 13px;
 }
 
+.summary {
+  padding-left: 30px;
+}
 
+.summary h2 {
+  font-size: 20px;
+  display: flex;
+  margin-top: 40px;
+}
+
+.subject {
+  width: 80%;
+  justify-self: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.subject div {
+  display: flex;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.subject h3 {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.subject p {
+  font-size: 12px;
+  color: var(--dark_gray_blue);
+  margin-right: 10px;
+}
+
+.red {
+  color: var(--light_red);
+  background: hsl(0, 100%, 67%, 0.06);
+}
+
+.yellow {
+  color: var(--orangey_yellow);
+  background: hsl(39, 100%, 56%, 0.06);
+}
+
+.green {
+  color: var(--green_teal);
+  background: hsl(166, 100%, 37%, 0.06);
+}
+
+.blue {
+  color: var(--cobalt_blue);
+  background: hsl(234, 85%, 45%, 0.06);
+}
+
+.continue {
+  margin-top: 30px;
+  background: var(--dark_gray_blue);
+  color: var(--white);
+  font-size: 12px;
+  height: 40px;
+  width: 80%;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  border-radius: 25px;
+  border: 0;
+}
+
+.continue:hover {
+  cursor: pointer;
+  background-color: var(--light_royal_blue);
+}
