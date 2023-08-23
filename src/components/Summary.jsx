@@ -21,7 +21,7 @@ const Summary = () => {
       {data.map((item) =>
         <Subject item={item} />)
       }
-      <button className='continue'><b>Continue</b></button>
+      <button className='continue'>Continue</button>
     </div>
   )
 }

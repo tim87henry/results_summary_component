@@ -192,9 +192,39 @@ html, body {
   margin-top: 15px;
   border-radius: 25px;
   border: 0;
+  font-weight: 800;
 }
 
 .continue:hover {
   cursor: pointer;
   background-color: var(--light_royal_blue);
+}
+
+
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .result {
+    width: 100%;
+    margin: 0;
+  }
+
+  .summary {
+    width: 100%;
+    margin: 0;
+    padding-left: 20%;
+  }
 }
